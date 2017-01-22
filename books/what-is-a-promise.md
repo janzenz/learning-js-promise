@@ -13,10 +13,12 @@ In order to understand Promise in JavaScript one must know its [motivation](http
     + Return Values from Asynchronous function
     + Throw and catch expresions
 - [Asynchronous Programming Control Flow](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators#control_flow)
-    + Serial Flow
+    + Serial Flow - Serial Flow happens when you need a group of asynchronous tasks to finish in series before you execute your code.
         * [Callback Version](examples/5-serial-flow-with-callback.js)
         * [Promise Version](examples/5-serial-flow-with-promise.js)
-    + Paralell Flow
+    + Paralell Flow - Parallel Flow happens when you need a group of asynchronous tasks to be completed together before executing another task.
+        * [Callback Version](examples/6-parallel-flow-with-callback.js)
+        * [Promise Version](examples/6-parallel-flow-with-promise.js)
 
 # What is a Promise?
 - A Promise is basically a State Machine.
