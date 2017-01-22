@@ -12,8 +12,10 @@ In order to understand Promise in JavaScript one must know its [motivation](http
 - These 2 reasons that are easily achievable by Synchronous Programming which is difficult for Asynchronous Programming but with Promise it is easily achieved:
     + Return Values from Asynchronous function
     + Throw and catch expresions
-- Asynchronous Programming
+- [Asynchronous Programming Control Flow](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators#control_flow)
     + Serial Flow
+        * [Callback Version](examples/5-serial-flow-with-callback.js)
+        * [Promise Version](examples/5-serial-flow-with-promise.js)
     + Paralell Flow
 
 # What is a Promise?
