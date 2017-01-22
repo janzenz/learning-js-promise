@@ -7,7 +7,9 @@ In order to understand Promise in JavaScript one must know its [motivation](http
 
 # Why Promise?
 - To solve the [Callback Hell](http://callbackhell.com/) problem see [example](examples/2-callback-hell.js)
-- These 2 reasons are easily achievable by synchronous programming, but with Promise it is easily achieved:
+- [Example of Promise](examples/3-promise.js)
+- [Example of Promise with Async](examples/4-promise-with-async.js)
+- These 2 reasons that are easily achievable by Synchronous Programming which is difficult for Asynchronous Programming but with Promise it is easily achieved:
     + Return Values from Asynchronous function
     + Throw and catch expresions
 - Asynchronous Programming
@@ -15,4 +17,4 @@ In order to understand Promise in JavaScript one must know its [motivation](http
     + Paralell Flow
 
 # What is a Promise?
-- A Promise is a basically a State Machine.
+- A Promise is basically a State Machine.

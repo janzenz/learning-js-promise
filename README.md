@@ -6,3 +6,4 @@ This is my notes for learning promise by hand. I've read a lot about promise but
 
 # Resources
 - [Implementing Promise by Forbes Lindesay](https://www.promisejs.org/implementing/)
+- [Statying sane with Asynchronouse Programming](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators)
